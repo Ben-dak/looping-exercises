@@ -2,7 +2,9 @@ package com.pluralsight;
 
 public class WhileLoop {
     public static void main(String[] args) {
-        while() {
+        int amount = 1;
+
+        while (amount == 5) {
 
 
         }
