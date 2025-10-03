@@ -2,12 +2,17 @@ package com.pluralsight;
 
 public class WhileLoop {
     public static void main(String[] args) {
-        int amount = 1;
 
-        while (amount += 5) {
+        int i = 1;
+        int sum = 0;
 
+        String ilj = "I love Java";
+
+        while (i <= 5) {
+            sum += i;
+            i++;
+            System.out.println(ilj);
         }
 
-        System.out.println("I love Java");
     }
 }
